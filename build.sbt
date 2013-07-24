@@ -6,7 +6,9 @@ name := "sbt-git"
 
 organization := "com.typesafe.sbt"
 
-scalaVersion := "2.10.2"
+sbtVersion in Global := "0.13.0-RC1"
+
+scalaVersion in Global := "2.10.2"
 
 version := "0.6.3"
 
