@@ -8,9 +8,9 @@ well as allowing other plugins to make use of git.
 
 Add the following to your `project/plugins.sbt` or `~/.sbt/plugins/plugins.sbt` file:
 
-    resolvers += "jgit-repo" at "http://download.eclipse.org/jgit/maven"
+    resolvers += "fuzion24-repo" at "http://fuzion24.github.io/maven/releases"
 
-    addSbtPlugin("com.typesafe.sbt" % "sbt-git" % "0.6.2")
+    addSbtPlugin("com.typesafe.sbt" % "sbt-git" % "0.6.3")
 
 
 ### Using JGit ###
